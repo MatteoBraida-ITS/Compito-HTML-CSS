@@ -7,47 +7,74 @@
   width: 100%;
   height: 800px;
   position: relative;
-  background-image: url(hero_section.png);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(hero_section.png);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 nav {
   width: 343px;
   height: 90px;
   background-color: #fff550;
-  border: 2px solid #fff550;
   border-radius: 49px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 20px;
-}
-
-#hero {
-  width: 100%;
-  height: 800px;
+  margin: 13px 16px 0 16px;
 }
 
 #logo {
-  padding-left: 20px;
-  padding-bottom: 10px;
+  width: 150px;
+  height: 50px;
+  margin-left: 35px;
 }
 
 #menu {
-  margin-right: 20px;
+  margin-right: 40px;
 }
 
 .hero_content {
-  margin-bottom: 300px;
+  width: 303px;
+  height: 354px;
+  margin: 260px 36px 70px 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 h3 {
   font-size: 48px;
-  padding: 20px;
   font-family: "Geist", sans-serif;
-  font-weight: bold;
+  font-weight: 600;
   color: white;
+  line-height: 85%;
+  letter-spacing: -2%;
+}
+
+p {
+  font-size: 22px;
+  font-family: "Geist", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+  line-height: 100%;
+  letter-spacing: -3%;
+  margin-top: 36px;
+}
+
+small {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Geist", sans-serif;
+  line-height: 109.00000000000001%;
+  letter-spacing: -5%;
+  color: white;
+  margin-top: 12px;
 }
