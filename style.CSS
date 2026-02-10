@@ -58,7 +58,7 @@ h3 {
   letter-spacing: -2%;
 }
 
-p {
+.p_hero {
   font-size: 22px;
   font-family: "Geist", sans-serif;
   font-style: normal;
@@ -79,30 +79,23 @@ p {
   margin-top: 12px;
 }
 
-.intro_section {
-  width: 100%;
-  height: 995px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-}
-
 main {
-  width: 327px;
-  height: 867px;
-  margin: 0 24px 70px 24px;
+  width: 100%;
+  height: 931px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .headline {
-  width: 327px;
-  height: 346px;
+  height: 246px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   gap: 16px;
+  margin: 64px 24px 0 24px;
 }
 
 .h6_headline {
@@ -113,7 +106,6 @@ main {
   line-height: 100%;
   letter-spacing: -2%;
   color: black;
-  width: 100%;
   display: flex;
   align-items: flex-start;
 }
@@ -125,4 +117,51 @@ main {
   line-height: 95%;
   letter-spacing: -3%;
   color: black;
+}
+
+.paragraph {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin: 0 24px 0 24px;
+}
+
+.p_headline {
+  font-family: "Geist", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 135%;
+  letter-spacing: -2%;
+  color: #222333;
+}
+
+button {
+  width: 189px;
+  height: 43px;
+  border: #fff550;
+  border-radius: 24px;
+  background-color: #fff550;
+  margin: 32px 162px 64px 0;
+}
+
+.a_button {
+  text-decoration: none;
+  color: #222333;
+}
+
+.img_main {
+  width: 414px;
+  height: 736px;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.spacing_mobile {
+  width: 100%;
+  height: 64px;
+  background-color: #fff550;
 }
