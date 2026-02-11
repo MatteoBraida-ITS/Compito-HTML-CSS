@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+body {
+  line-height: inherit;
+  margin: 0;
+}
+
 .w-full {
   width: 100%;
 }
@@ -244,7 +249,7 @@ h1 {
   gap: 2.5rem;
 }
 
-grid {
+.grid {
   display: grid;
 }
 
@@ -294,4 +299,31 @@ a {
   font-weight: 400px;
   letter-spacing: -0.28px;
   line-height: 120%;
+}
+
+.spacer-component {
+  height: var(--spacing-mobile);
+}
+
+.optimized-image {
+  overflow: hidden;
+  position: relative;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+div [div-img] {
+  aspect-ratio: var(--aspect-mobile, 4/3);
 }
