@@ -243,3 +243,55 @@ h1 {
 .gap-10 {
   gap: 2.5rem;
 }
+
+grid {
+  display: grid;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
+max-w-\[1200px\] {
+  max-width: 1200px;
+}
+
+.p2,
+p {
+  font-family: Geist;
+  font-size: 16px;
+  font-weight: 400px;
+  letter-spacing: -0.32px;
+  line-height: 135%;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.custom-button {
+  border-radius: 9999px;
+  display: inline-block;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 245 80 / var(--tw-bg-opacity, 1));
+  color: #0009;
+  font-weight: 600;
+  padding: 18px 1.5rem;
+}
+
+.custom-button {
+  font-family: Geist;
+  font-size: 14px;
+  font-weight: 400px;
+  letter-spacing: -0.28px;
+  line-height: 120%;
+}
