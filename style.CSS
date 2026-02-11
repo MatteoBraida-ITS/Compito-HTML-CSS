@@ -55,6 +55,11 @@ body {
   padding-top: 0.5rem;
 }
 
+.py-cards {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -63,6 +68,10 @@ body {
 .bg-brand-primary-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(255 245 80 / var(--tw-bg-opacity, 1));
+}
+
+.bg-brand-secondary-500 {
+  background-color: rgb(34 35 51);
 }
 
 .rounded-full {
@@ -223,8 +232,59 @@ button {
 
 h1,
 h3,
-h4 {
+h2,
+h4,
+h5,
+h6 {
   margin: 0;
+}
+
+h3 {
+  font-family: Geist;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: -0.66px;
+  line-height: 100%;
+}
+
+h4 {
+  font-family: Geist;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -5%;
+  line-height: 109%;
+}
+
+h5,
+h6 {
+  font-family: Geist;
+  font-weight: 600;
+  line-height: 100%;
+}
+
+h6 {
+  font-size: 14px;
+  letter-spacing: 0;
+}
+
+.h6-grid-cards {
+  font-size: 12px;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 .display,
@@ -249,12 +309,20 @@ h1 {
   gap: 2.5rem;
 }
 
+.gap-5 {
+  gap: 1.5rem;
+}
+
 .grid {
   display: grid;
 }
 
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .gap-8 {
@@ -272,6 +340,10 @@ p {
   font-weight: 400px;
   letter-spacing: -0.32px;
   line-height: 135%;
+}
+
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .mt-8 {
@@ -310,6 +382,12 @@ a {
   position: relative;
 }
 
+article .optimized-image img {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+}
+
 .object-cover {
   object-fit: cover;
 }
@@ -336,4 +414,34 @@ h2 {
   font-weight: 500;
   letter-spacing: -1.44px;
   line-height: 95%;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.py-18 {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.font-primary {
+  font-family: Geist;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.text-16 {
+  font-size: 16px;
 }
