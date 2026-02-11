@@ -1,167 +1,149 @@
-* {
-  margin: 0;
-  padding: 0;
+*,
+:after,
+:before {
+  border: 0 solid #e5e7eb;
+  box-sizing: border-box;
 }
 
-.hero {
+.w-full {
   width: 100%;
-  height: 800px;
-  position: relative;
-  background-image:
-    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(hero_section.png);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0;
-  padding: 0;
 }
 
-nav {
-  width: 343px;
-  height: 90px;
-  background-color: #fff550;
-  border-radius: 49px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 13px 16px 0 16px;
+.z-50 {
+  z-index: 50;
 }
 
-#logo {
-  width: 150px;
-  height: 50px;
-  margin-left: 35px;
+.top-0 {
+  top: 0;
 }
 
-#menu {
-  margin-right: 40px;
+.left-0 {
+  left: 0;
 }
 
-.hero_content {
-  width: 303px;
-  height: 354px;
-  margin: 260px 36px 70px 36px;
-  display: flex;
-  flex-direction: column;
+.fixed {
+  position: fixed;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.justify-center {
   justify-content: center;
+}
+
+.items-center {
   align-items: center;
 }
 
-h3 {
-  font-size: 48px;
-  font-family: "Geist", sans-serif;
-  font-weight: 600;
-  color: white;
-  line-height: 85%;
-  letter-spacing: -2%;
-}
-
-.p_hero {
-  font-size: 22px;
-  font-family: "Geist", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  color: white;
-  line-height: 100%;
-  letter-spacing: -3%;
-  margin-top: 36px;
-}
-
-.small_hero {
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "Geist", sans-serif;
-  line-height: 109.00000000000001%;
-  letter-spacing: -5%;
-  color: white;
-  margin-top: 12px;
-}
-
-main {
-  width: 100%;
-  height: 931px;
+.flex {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
 }
 
-.headline {
-  height: 246px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 16px;
-  margin: 64px 24px 0 24px;
-}
-
-.h6_headline {
-  font-size: 10px;
-  font-weight: 600;
-  text-transform: uppercase;
-  font-family: "Geist", sans-serif;
-  line-height: 100%;
-  letter-spacing: -2%;
-  color: black;
-  display: flex;
-  align-items: flex-start;
-}
-
-.h3_headline {
-  font-family: "Geist", sans-serif;
+.font-medium {
   font-weight: 500;
-  font-size: 48px;
+}
+
+.py-2 {
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.bg-brand-primary-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 245 80 / var(--tw-bg-opacity, 1));
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.max-w\[1080px\] {
+  max-width: 1080px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
+.icon-fill {
+  fill: currentColor;
+}
+
+.w-24 {
+  width: 6rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  font-family: Geist;
+  font-size: 14px;
+  font-weight: 400px;
+  letter-spacing: -0.3px;
   line-height: 95%;
-  letter-spacing: -3%;
-  color: black;
 }
 
-.paragraph {
-  display: flex;
+.gap-1 {
+  gap: 0.25rem;
+}
+
+.flex-col {
   flex-direction: column;
-  gap: 24px;
-  margin: 0 24px 0 24px;
 }
 
-.p_headline {
-  font-family: "Geist", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 135%;
-  letter-spacing: -2%;
-  color: #222333;
+.h-6 {
+  height: 1.5rem;
+}
+
+.w-6 {
+  width: 1.5rem;
 }
 
 button {
-  width: 189px;
-  height: 43px;
-  border: #fff550;
-  border-radius: 24px;
-  background-color: #fff550;
-  margin: 32px 162px 64px 0;
+  color: inherit;
+  font-family: inherit;
+  font-feature-settings: inherit;
+  font-size: 100%;
+  font-variation-settings: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
 }
 
-.a_button {
-  text-decoration: none;
-  color: #222333;
+.bg-black {
+  background-color: rgb(0 0 0);
 }
 
-.img_main {
-  width: 414px;
-  height: 736px;
-}
-
-#main {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.spacing_mobile {
-  width: 100%;
-  height: 64px;
-  background-color: #fff550;
+.h-0\.5 {
+  height: 0.125rem;
 }
