@@ -76,6 +76,10 @@
   width: 100%;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .h-20 {
   height: 5rem;
 }
@@ -164,7 +168,7 @@ button {
   position: relative;
 }
 
-bg-black\/40 {
+.bg-black\/40 {
   background-color: #0006;
 }
 
@@ -178,4 +182,64 @@ bg-black\/40 {
 
 .absolute {
   position: absolute;
+}
+
+.custom-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1260px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 100%;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.display {
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: -1.44px;
+  line-height: 95%;
+}
+
+h1,
+h3,
+h4 {
+  margin: 0;
+}
+
+.display,
+body,
+html {
+  font-family: Geist;
+}
+
+h1 {
+  margin: 0;
+}
+
+.text-white {
+  color: white;
+}
+
+.pb-16 {
+  padding-bottom: 4rem;
+}
+
+.gap-10 {
+  gap: 2.5rem;
 }
