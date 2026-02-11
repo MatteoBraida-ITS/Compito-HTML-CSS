@@ -327,3 +327,13 @@ img {
 div [div-img] {
   aspect-ratio: var(--aspect-mobile, 4/3);
 }
+
+.title1,
+h1,
+h2 {
+  font-family: Geist;
+  font-size: 48px;
+  font-weight: 500;
+  letter-spacing: -1.44px;
+  line-height: 95%;
+}
