@@ -553,6 +553,18 @@ hr {
   .lg\:block-img {
     display: block;
   }
+
+  .link {
+    font-size: 16px;
+  }
+
+  .h4 {
+    font-size: 20px;
+  }
+
+  .max-w-360px {
+    max-width: 360px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -643,5 +655,25 @@ hr {
 
   .lg\:block-img-1024 {
     display: block;
+  }
+
+  .max-w-1200 {
+    max-width: 1200px;
+  }
+
+  .lg\:justify-between {
+    justify-content: space-between;
+  }
+
+  .max-w-360px {
+    max-width: 360px;
+  }
+
+  .lg\:items-end {
+    align-items: flex-end;
+  }
+
+  .lg\:gap-8 {
+    gap: 2rem;
   }
 }
