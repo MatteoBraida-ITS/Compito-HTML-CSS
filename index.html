@@ -17,7 +17,7 @@
       <div class="fixed top-0 left-0 w-full z-50">
         <div class="flex justify-center items-center p-4">
           <div
-            class="w-full max-w-[1080px] rounded-full bg-brand-primary-500 h-20 py-2 px-8 flex items-center justify-between font-medium"
+            class="w-full max-w-1440 rounded-full bg-brand-primary-500 h-20 py-2 px-8 flex items-center justify-between font-medium"
           >
             <a href="#" class="logo-navbar">
               <img
@@ -48,7 +48,7 @@
       <div>
         <section id="hero">
           <div
-            class="bg-cover bg-center w-full h-[90vh] relative"
+            class="bg-cover bg-center w-full h-90vh relative"
             style="background-image: url(img/background-image1.webp)"
           >
             <div class="absolute inset-0 bg-black/40 z-0"></div>
@@ -159,11 +159,11 @@
               </h2>
               <a
                 href="#"
-                class="bg-white px-6 py-18 rounded-full font-primary font-normal text-16 LineH120 Lspacing"
+                class="bg-white px-6 py-18 rounded-full font-primary font-normal text-16 LineH120 Lspacing nowrap"
                 >Scopri i nostri servizi</a
               >
             </div>
-            <div class="mb-12">
+            <div class="mb-12 lg:max-w-764">
               <h3>
                 Accompagniamo aziende, enti e istituzioni lungo l’intero ciclo
                 della trasformazione: dalla definizione strategica alla gestione
@@ -171,7 +171,7 @@
                 processi.
               </h3>
             </div>
-            <div class="grid grid-cols-2 gap-5">
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-5">
               <article
                 class="bg-brand-secondary-500 flex flex-col justify-center items-center px-4"
               >
@@ -255,6 +255,55 @@
             style="--spacing-mobile: 64px; --spacing-desktop: 128"
             class="spacer-component w-full bg-brand-primary-500"
           ></div>
+        </section>
+        <div
+          style="--spacing-mobile: 64px; --spacing-desktop: 128"
+          class="spacer-component w-full bg-white"
+        ></div>
+        <section class="w-full">
+          <div class="custom-container flex flex-col gap-12 items-center">
+            <h3>Abbiamo lavorato con</h3>
+            <div class="custom-container flex flex-row justify-between">
+              <div class="optimized-image">
+                <img src="img/RomaLogo.svg" alt="RomaLogo.svg" />
+              </div>
+              <div class="optimized-image">
+                <img src="img/zetemaLogo.svg" alt="zetemaLogo.svg" />
+              </div>
+              <div class="optimized-image hidden lg:block-img">
+                <img
+                  src="img/RegioneLazioLogo.svg"
+                  alt="RegioneLazioLogo.svg"
+                />
+              </div>
+              <div class="optimized-image hidden lg:block-img-1024">
+                <img src="img/AciLogo.svg" alt="AciLogo.svg" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <div
+          style="--spacing-mobile: 64px; --spacing-desktop: 128"
+          class="spacer-component w-full bg-white"
+        ></div>
+        <section class="w-full">
+          <div
+            class="bg-cover bg-center w-full h-540px flex flex-col justify-center relative"
+            style="background-image: url(img/background-image2.webp)"
+          >
+            <div class="absolute inset-0 bg-black/40 z-0"></div>
+            <div
+              class="custom-container flex flex-col justify-center items-center relative gap-12 text-center text-white"
+            >
+              <div class="flex flex-col gap-6 max-w-900px">
+                <h6 class="uppercase">Diventa ciò che progetti</h6>
+                <h2 class="text-white">
+                  Scopri come trasformiamo insight in risultati.
+                </h2>
+              </div>
+              <a href="#" class="custom-button">Contatti</a>
+            </div>
+          </div>
         </section>
       </div>
     </div>

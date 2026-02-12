@@ -82,8 +82,12 @@ body {
   justify-content: space-between;
 }
 
-.max-w\[1080px\] {
-  max-width: 1080px;
+.max-w-1440 {
+  max-width: 1440px;
+}
+
+.max-w-900px {
+  max-width: 900px;
 }
 
 .w-full {
@@ -174,8 +178,12 @@ button {
   background-size: cover;
 }
 
-.h-\[90vh\] {
+.h-90vh {
   height: 90vh;
+}
+
+.h-540px {
+  height: 540px;
 }
 
 .relative {
@@ -239,6 +247,14 @@ h6 {
   margin: 0;
 }
 
+h2 {
+  font-family: Geist;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 109%;
+}
+
 h3 {
   font-family: Geist;
   font-size: 22px;
@@ -265,6 +281,10 @@ h6 {
 h6 {
   font-size: 14px;
   letter-spacing: 0;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .h6-grid-cards {
@@ -327,6 +347,10 @@ h1 {
 
 .gap-8 {
   gap: 2rem;
+}
+
+.gap-12 {
+  gap: 3rem;
 }
 
 max-w-\[1200px\] {
@@ -407,8 +431,7 @@ div [div-img] {
 }
 
 .title1,
-h1,
-h2 {
+h1 {
   font-family: Geist;
   font-size: 48px;
   font-weight: 500;
@@ -418,6 +441,10 @@ h2 {
 
 .bg-white {
   background-color: white;
+}
+
+.nowrap {
+  white-space: nowrap;
 }
 
 .px-4 {
@@ -454,6 +481,11 @@ h2 {
     line-height: 85%;
   }
 
+  h2 {
+    font-size: 32px;
+    line-height: 98%;
+  }
+
   h3 {
     font-size: 26px;
     letter-spacing: 0;
@@ -483,6 +515,10 @@ h2 {
     line-height: 95%;
     letter-spacing: -3.84px;
   }
+
+  .lg\:block-img {
+    display: block;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -501,6 +537,11 @@ h2 {
   .display {
     font-size: 104px;
     letter-spacing: -2.08px;
+  }
+
+  h2 {
+    font-size: 64px;
+    line-height: 100%;
   }
 
   h3 {
@@ -556,5 +597,17 @@ h2 {
 
   .Lspacing {
     letter-spacing: -0.32px;
+  }
+
+  .lg\:max-w-764 {
+    max-width: 764px;
+  }
+
+  .lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .lg\:block-img-1024 {
+    display: block;
   }
 }
