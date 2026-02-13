@@ -703,4 +703,32 @@ hr {
   .lg\:gap-8 {
     gap: 2rem;
   }
+
+  .lg\:gap-136 {
+    gap: 34rem;
+  }
+
+  .lg\:nomargin {
+    margin-bottom: 0;
+  }
+
+  .lg\:max-w-418 {
+    max-width: 418px;
+  }
+
+  .lg\:flex-col {
+    flex-direction: column;
+  }
+
+  .lg\:numberL {
+    font-size: 300px;
+  }
+
+  .lg\:max-h-455px {
+    max-height: 455px;
+  }
+
+  .lg\:width1 {
+    width: 236.48px;
+  }
 }
