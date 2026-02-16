@@ -215,6 +215,14 @@ button {
   width: 100%;
 }
 
+.custom-card-container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+  gap: 1.5rem;
+  width: 100%;
+}
+
 .gap-9 {
   gap: 2.5rem;
 }
@@ -534,7 +542,7 @@ hr {
   margin-top: 0;
 }
 
-/*Media Query per tablet*/
+/*Media Query per tablet (768px-1024px)*/
 
 @media (min-width: 768px) {
   .display {
@@ -593,6 +601,8 @@ hr {
     max-width: 360px;
   }
 }
+
+/*Media Query per Desktop (1024px+)*/
 
 @media (min-width: 1024px) {
   .lg\:hidden {
