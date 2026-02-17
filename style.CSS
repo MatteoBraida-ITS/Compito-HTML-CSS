@@ -144,6 +144,10 @@ ul {
   flex-direction: column;
 }
 
+.flex-grow {
+  flex-grow: 1;
+}
+
 .h-6 {
   height: 1.5rem;
 }
@@ -762,7 +766,8 @@ hr {
     max-width: 585px;
   }
 
-  .lg\:max-h-380 {
-    max-height: 380px;
+  .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
