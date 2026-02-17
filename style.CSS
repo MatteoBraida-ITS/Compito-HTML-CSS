@@ -65,6 +65,10 @@ body {
   padding-right: 2rem;
 }
 
+.pt-8 {
+  padding-top: 2rem;
+}
+
 .bg-brand-primary-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(255 245 80 / var(--tw-bg-opacity, 1));
@@ -542,6 +546,18 @@ hr {
   margin-top: 0;
 }
 
+.h-226px {
+  height: 226px;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
 /*Media Query per tablet (768px-1024px)*/
 
 @media (min-width: 768px) {
@@ -740,5 +756,13 @@ hr {
 
   .lg\:width1 {
     width: 236.48px;
+  }
+
+  .lg\:max-w-585 {
+    max-width: 585px;
+  }
+
+  .lg\:max-h-380 {
+    max-height: 380px;
   }
 }
