@@ -562,6 +562,10 @@ hr {
   align-items: flex-end;
 }
 
+.aspect-square {
+  aspect-ratio: 1/1;
+}
+
 /*Media Query per tablet (768px-1024px)*/
 
 @media (min-width: 768px) {
